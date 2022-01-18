@@ -8,5 +8,4 @@
 int stack[MAX_STACK_LENGTH];
 
 
-
 #endif // STACK_H
