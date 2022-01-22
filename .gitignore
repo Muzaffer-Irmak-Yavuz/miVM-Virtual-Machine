@@ -1,6 +1,10 @@
 # Prerequisites
 *.d
+*.txt
+miVM
+*.json
 
+.vscode
 # Object files
 *.o
 *.ko

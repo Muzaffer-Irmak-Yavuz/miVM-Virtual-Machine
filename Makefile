@@ -1,6 +1,6 @@
-SRC_FILES = src\main.c src\instruction.c
-CC_FLAGS = -Wall -Wextra -g -std=c11
-CC = clang
+CC = gcc
+CFLAGS = -Wall -g --std=c99
+SRC = src/main.c src/instruction.c
 
-all:
-    ${CC} ${SRC_FILES} ${CC_FLAGS} -o miVm
+all :
+	${CC} ${CFLAGS} ${SRC} -o miVM

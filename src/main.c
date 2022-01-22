@@ -1,17 +1,19 @@
 #include "../include/instruction.h"
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include <unistd.h>
+#include <fcntl.h>
+#include <sys/mman.h>
+
 bool running = true;
 
 
 
 
-const int program[] = {
-    PSH, 5,
-    PSH, 10,
-    ADD,
-    POP,
-    HLT
-};
+
 
 
 
@@ -22,11 +24,17 @@ const int program[] = {
 
 int main(int argc, char const *argv[])
 {
+
+    
+    
+    
+    
+    /*
     while (running)
     {
         eval(fetch(program),program);
         
     }
-    
+    */
     return 0;
 }

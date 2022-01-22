@@ -12,7 +12,7 @@ typedef enum {
  * @brief Using for printing all registers or access their values
  * 
  */
-int registers[COUNT_OF_REGISTERS];
+extern int registers[COUNT_OF_REGISTERS];
 
 #define pc registers[PC]
 
