@@ -75,7 +75,6 @@ PARSE_INFO parse(const char *filename)
                 break;
             }
                 
-
             // when everything is okey put token into instruction set
             set[index] = malloc(sizeof(char) * 10);
             strcpy(set[index], token);
@@ -84,7 +83,6 @@ PARSE_INFO parse(const char *filename)
             // then get new token
             token = strtok(NULL, " ");
         }
-
     }
 
     fclose(fp);
