@@ -5,6 +5,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <stdint.h>
 
 typedef struct {
     char **set;
