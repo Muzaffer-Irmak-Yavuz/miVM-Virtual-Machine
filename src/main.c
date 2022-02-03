@@ -1,4 +1,5 @@
 #include "../include/instruction.h"
+#include "../include/parser.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -25,8 +26,12 @@ bool running = true;
 int main(int argc, char const *argv[])
 {
 
+    PARSE_INFO info = parse("source.mi");
     
-    
+    for (size_t i = 0; i < info.instructionCount; i++)
+    {
+        printf("%s ",info.set[i]);
+    }
     
     
     /*
